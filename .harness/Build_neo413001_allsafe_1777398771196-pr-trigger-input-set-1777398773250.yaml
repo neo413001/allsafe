@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_neo413001_allsafe_1777398771196-pr-trigger-input-set
+  identifier: Build_neo413001_allsafe_1777398771196prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_neo413001_allsafe_1777398771196
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
