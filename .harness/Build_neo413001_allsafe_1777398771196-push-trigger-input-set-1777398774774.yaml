@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_neo413001_allsafe_1777398771196-push-trigger-input-set
+  identifier: Build_neo413001_allsafe_1777398771196pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_neo413001_allsafe_1777398771196
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
